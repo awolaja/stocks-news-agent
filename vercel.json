@@ -5,5 +5,5 @@
 //     }
 //   }
 // }
-###replacing this with empty json since vercel does not support python runtime
+//using empty json since vercel does not support python runtime
 {}
