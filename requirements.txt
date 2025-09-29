@@ -1,0 +1,4 @@
+# No external dependencies needed for basic version
+# If you want to use transformers for advanced sentiment analysis, uncomment:
+# transformers==4.36.0
+# torch==2.1.0
