@@ -1,4 +1,21 @@
-*.py
-__pycache__/
+# Dependencies
+node_modules/
 .venv/
-requirements.txt
+__pycache__/
+
+# Build output
+.next/
+dist/
+out/
+
+# Vercel
+.vercel/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.DS_Store
