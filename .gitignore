@@ -1,21 +1,46 @@
-# Dependencies
+# === Node.js / Next.js ===
 node_modules/
+.next/
+out/
+dist/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun.lockb
+
+# === Python ===
 .venv/
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
 
-# Build output
-.next/
-dist/
-out/
-
-# Vercel
-.vercel/
-
-# Env files
+# === Environment / Secrets ===
 .env
 .env.local
-.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# IDE
+# === Vercel ===
+.vercel/
+
+# === IDE / OS ===
 .vscode/
+.idea/
+*.swp
+*.swo
 .DS_Store
+Thumbs.db
+
+# === Testing ===
+coverage/
+*.lcov
+
+# === Misc ===
+*.lock
